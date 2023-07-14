@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const video = document.querySelector('video');
+    video.play();
+  });
+
 const listItem = document.querySelectorAll('#landingHeader li')
     const menuBackDrop = document.querySelector('#menu-backdrop')
 
